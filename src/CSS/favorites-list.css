@@ -1,0 +1,44 @@
+#app-main {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.grid-child {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: min-content;
+  justify-content: center;
+}
+
+.favorite-container {
+  padding: 1rem;
+  border: 1px solid #000;
+  border-radius: 12px;
+}
+
+.favorite-container > * {
+  margin: 0.5rem;
+}
+
+.img {
+  width: 250px;
+  height: 375px;
+  object-fit: cover;
+  background-color: rgb(87, 163, 87);
+  border-radius: 12px;
+}
+
+.delete-btn {
+  padding: 0.5rem;
+  background-color: #000;
+  color: #fff;
+  border-radius: 12px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.bold {
+  font-weight: bold;
+}
