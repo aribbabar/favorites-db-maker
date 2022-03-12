@@ -2,7 +2,7 @@
 
 How to run this app:
 
-Step 1: Fork this repo
+Step 1: Clone this repo
 
 Step 2: Open up a terminal session in the project directory annd run
 ```
