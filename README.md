@@ -10,7 +10,7 @@ Step 2: Open up a terminal session in the project directory annd run:
 npm run start-server
 ```
 
-Step 3: Open up another terminak session and run:
+Step 3: Open up another terminal session and run:
 
 ```
 npm start
